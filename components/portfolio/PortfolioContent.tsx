@@ -122,16 +122,18 @@ function PortfolioCard({ project }: { project: (typeof projects)[number] }) {
             ))}
           </div>
 
-          <a
-            href={project.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-[13px] font-medium transition-colors"
-            style={{ color: "var(--navy)" }}
-          >
-            View project
-            <ExternalLink size={12} />
-          </a>
+          {project.href && (
+            <a
+              href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-[13px] font-medium transition-colors"
+              style={{ color: "var(--navy)" }}
+            >
+              View project
+              <ExternalLink size={12} />
+            </a>
+          )}
         </div>
       </div>
     </div>
