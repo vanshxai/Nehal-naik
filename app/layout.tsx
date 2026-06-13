@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: `https://${siteConfig.domain}`,
+    url: "https://nehalnaik.com",
     siteName: siteConfig.name,
     title: `${siteConfig.name} — AI/ML Technology Leader`,
     description: "Strategic AI for a Risk-Intelligent World.",

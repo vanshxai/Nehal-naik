@@ -1,10 +1,8 @@
 import { MetadataRoute } from "next";
-import { siteConfig } from "@/data/content";
-
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: `https://${siteConfig.domain}`,
+      url: "https://nehalnaik.com",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

@@ -1,9 +1,7 @@
 import { MetadataRoute } from "next";
-import { siteConfig } from "@/data/content";
-
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: `https://${siteConfig.domain}/sitemap.xml`,
+    sitemap: "https://nehalnaik.com/sitemap.xml",
   };
 }
