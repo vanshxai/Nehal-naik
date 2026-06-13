@@ -26,7 +26,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://${siteConfig.domain}`),
+  metadataBase: new URL("https://nehalnaik.com"),
   title: {
     default: `${siteConfig.name} — AI/ML Technology Leader`,
     template: `%s | ${siteConfig.name}`,
